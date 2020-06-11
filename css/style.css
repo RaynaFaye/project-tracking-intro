@@ -16,7 +16,8 @@ body {
   grid-column: 1 / -1;
   grid-row: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 50px 150px 0 150px;
 }
 .header__logo {
   height: 32px;
@@ -24,6 +25,25 @@ body {
 .header__menu {
   display: flex;
   list-style: none;
+  padding: 0;
+}
+.header__menu__item {
+  margin-right: 50px;
+}
+.header__menu__link {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  color: hsl(230, 29%, 20%);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header__menu__item__login {
+  list-style-type: disc;
+  padding-left: 50px;
+  color: hsl(231, 7%, 65%);
+}
+.header__menu__link__login {
+  color: hsl(231, 7%, 65%);
 }
 /* Content Section */
 .content {
