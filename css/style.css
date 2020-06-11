@@ -49,6 +49,51 @@ body {
 .content {
   grid-column: 1;
   grid-row: 2 / 4;
+  padding-left: 150px;
+}
+.content__paragraph_spacing {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: hsl(231, 7%, 65%);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.content__new {
+  font-weight: 700;
+  background: hsl(230, 29%, 20%);
+  color: #ffffff;
+  border-radius: 50px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  letter-spacing: normal;
+}
+.content__title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  color: hsl(230, 29%, 20%);
+  text-transform: uppercase;
+  margin: 0;
+}
+.content__paragraph {
+  color: hsl(230, 11%, 40%);
+  width: 50%;
+}
+.content__button-section {
+  display: flex;
+  margin-top: 50px;
+  font-size: 16px;
+}
+.content__button {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: hsl(0, 100%, 68%);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 25px;
+  margin-right: 25px;
 }
 /* Background and Image section */
 .background-box {
