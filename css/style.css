@@ -22,6 +22,9 @@ body {
 .header__logo {
   height: 32px;
 }
+.header__mobile-menu__button {
+  display: none;
+}
 .header__menu {
   display: flex;
   list-style: none;
@@ -136,6 +139,39 @@ body {
   /* Header */
   .header {
     padding: 50px 0px 0 30px;
+  }
+  .header__mobile-menu__button {
+    display: block;
+    border: none;
+    background: none;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .header__menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0.5rem hsl(240, 4%, 57%);
+    width: 75%;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    right: 35px;
+    padding: 10px;
+  }
+  .header__menu__item {
+    margin-right: 0px;
+  }
+  .header__menu__item__login {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 0px;
+    border-top: 1px solid hsl(231, 7%, 65%);
+    width: 100%;
+    text-align: center;
   }
   /* Content Section */
   .content {
