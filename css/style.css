@@ -145,10 +145,10 @@ body {
     border: none;
     background: none;
     margin-right: 30px;
+    padding: 5px;
     cursor: pointer;
   }
   .header__menu {
-    display: none;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -161,6 +161,9 @@ body {
     top: 90px;
     right: 35px;
     padding: 10px;
+  }
+  .header__menu__hidden {
+    display: none;
   }
   .header__menu__item {
     margin-right: 0px;
