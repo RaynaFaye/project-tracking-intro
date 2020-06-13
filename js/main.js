@@ -21,7 +21,3 @@ document.addEventListener('keyup', (e) => {
     menuButton.setAttribute('aria-expanded', 'false');
   }
 });
-
-menuBlock.addEventListener('focusout', (e) => {
-  console.log(e);
-});
